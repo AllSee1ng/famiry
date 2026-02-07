@@ -1,0 +1,14 @@
+.form__button {
+  background: #d89c00;
+  border-radius: 16px;
+  padding: 16px 50px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  transition: 0.3s ease-in-out;
+  backdrop-filter: blur(20px);
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
